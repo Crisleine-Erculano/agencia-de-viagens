@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Bebas+Neue & family= Fascinate & family= Inter:wght@300 & family= Kdam+Thmor+Pro & family= Montserrat & family= Outfit:wght@400;700 & family= Poppins:wght@400;500;600;700 & family= Raleway:wght@400;500 & family= Vollkorn:ital@1 & display=swap' );
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 25px 0px;
+    margin: 0 auto;
+    background-color: #FF6105;
+    color: #fff;
+
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragrafo-titulo, .paragrafo-pacotes{
+    text-align: center;
+    padding: 15px 0px;
+}
+.menu{
+    display: flex;
+}
+.menu-cabecalho{
+    display: flex;
+}
+.lista-cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.item-lista{
+    list-style: none;
+}
+.item-link{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.conteiner{
+    width: 100%;
+    margin: 0 auto;
+}
+.pacotes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px 0px;
+    background-color: #FA9007;
+    color: #fff;
+}
+.figure{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+
+}

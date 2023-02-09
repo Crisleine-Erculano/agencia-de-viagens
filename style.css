@@ -60,10 +60,30 @@ body{
     margin: 10px 0px;
     background-color: #FA9007;
     color: #fff;
+    
 }
 .figure{
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px;
 
+}
+figcaption{
+    padding: 10px;
+}
+.submit{
+    padding: 15px;
+    width: 90%;
+    border-radius: 7px;
+    border: none;
+    background-color: #1E7EFF;
+    color: #ccc;
+    text-align: center;
+    font-size:1.2em;
+    cursor: pointer;
+}
+.submit:hover{
+    padding: 18px;
+    font-size: 1.5em;
+    background-color: #363fbf;
 }

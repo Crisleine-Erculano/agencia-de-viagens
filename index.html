@@ -90,28 +90,27 @@
     
     <section class="form">
       <form action="">
-        <fieldset>
+        <fieldset class="formulario">
           
-          <legend>Dados Pessoais</legend>
+          <legend class="legenda">Dados Pessoais</legend>
           
           <label for="nome">Nome</label>
-          <input type="text" name="nome" id=""nome>
+          <input class="input" type="text" name="nome" id=""nome>
           
           <label for="email">Email</label>
-          <input type="email" name="email" id="email">
+          <input class="input" type="email" name="email" id="email">
           
           <label for="ida">Data-Ida</label>
-          <input type="date" name="ida" id="ida">
+          <input class="input" type="date" name="ida" id="ida">
           
           <label for="volta">Data-Volta</label>
-          <input type="date" name="volta" id="volta">
+          <input class="input" type="date" name="volta" id="volta">
           
           <label for="pessoa">Quantidade de pessoas</label>
-          
-          <input type="number" name="pessoa" id="pessoa">
+          <input class="input" type="number" name="pessoa" id="pessoa">
         </fieldset>
-        <fieldset>
-          <legend>Qual(ais) serviços pretende contratar?</legend>
+        <fieldset class="formulario-servicos">
+          <legend class="servicos">Qual(ais) serviços pretende contratar?</legend>
           <label for="reserva">Reserva de Hotel</label>
           <input type="checkbox" name="reserva" id="reserva>
           
@@ -124,7 +123,7 @@
           <label for="guia">Guia Turístico</label>
           <input type="checkbox" name="guia" id="guia">
         </fieldset>
-        <fieldset>
+        <fieldset class="formulario-pagamento">
           <legend>Escolha a forma de pagamento</legend>
           
           <label for="cartaoDebito">Cartão de Débito</label>
@@ -141,8 +140,8 @@
           >
           
         </fieldset>
-        <fieldset>
-          <legend>Como deseja pagar</legend>
+        <fieldset class="formasPagar">
+          <legend class="pagamentos">Como deseja pagar</legend>
           <select name="" id="">
             <option value="">A vista</option>
             <option value="">5x sem juro</option>

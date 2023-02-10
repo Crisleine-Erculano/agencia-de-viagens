@@ -58,22 +58,27 @@ body{
     text-align: center;
     padding-top: 20px;
     margin: 10px 0px;
-    background-color: #FA9007;
-    color: #fff;
+    color: #323538;
     
 }
 .figure{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 0px;
+    padding-top: 20px ;
+    background-color: #FA9007;
 
 }
 figcaption{
     padding: 10px;
+    color: #323538;
+}
+.span{
+    color: #323538;
+    font-size: 2em;
 }
 .submit{
     padding: 15px;
-    width: 90%;
+    width: 100%;
     border-radius: 7px;
     border: none;
     background-color: #1E7EFF;
@@ -87,3 +92,19 @@ figcaption{
     font-size: 1.5em;
     background-color: #363fbf;
 }
+.table{
+    margin: 20px 0;
+}
+
+.descricao{
+    text-align: center;
+    padding: 15px 0;
+    color: #323538;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.tabela{
+    width: 100%;
+}
+
+

@@ -111,38 +111,44 @@
         </fieldset>
         <fieldset class="formulario-servicos">
           <legend class="servicos">Qual(ais) serviços pretende contratar?</legend>
-          <label for="reserva">Reserva de Hotel</label>
-          <input type="checkbox" name="reserva" id="reserva>
+          <label for="reserva">
+            <input class="checkbox" type="checkbox" name="reserva" id="reserva">Reserva de Hotel
+          </label>
           
-          <label for="passagem">Compra de passagem</label>
-          <input type="checkbox" name="passagem" id="passagem">
+          <label for="passagem">
+            <input class="checkbox" type="checkbox" name="passagem" id="passagem">Compra de passagem
+          </label>
           
-          <label for="carro">Aluguel de Carro</label>
-          <input type="checkbox" name="carro" id="carro">
+          <label for="carro">
+            <input class="checkbox" type="checkbox" name="carro" id="carro">Aluguel de Carro
+          </label>
           
-          <label for="guia">Guia Turístico</label>
-          <input type="checkbox" name="guia" id="guia">
+          <label for="guia">
+            <input class="checkbox" type="checkbox" name="guia" id="guia">Guia Turístico
+          </label>
         </fieldset>
         <fieldset class="formulario-pagamento">
           <legend class="formulario-formas-pagamentos">Escolha a forma de pagamento</legend>
           
-          <label for="cartaoDebito">Cartão de Débito</label>
-          <input type="radio" name="pagamentos value
-          " id="cartaoDebito" value = "cartão de Debito"
-          >
+          <label for="cartaoDebito">
+            <input class="radio" type="radio" name="pagamentos"  id="cartaoDebito" value = "cartão de Debito">Cartão de Débito
+            
+          </label>
           
-          <label for="cartaoCredito">Cartão de credito</label>
-          <input type="radio" name="pagamentos" id="cartaoCredito" value=" Cartão de Credito"
-          >
           
-          <label for="pix">Pix</label>
-          <input type="radio" name="pagamentos" id="pix" value="Pix"
-          >
+          <label for="cartaoCredito">
+            <input class="radio" type="radio" name="pagamentos" id="cartaoCredito" value=" Cartão de Credito">Cartão de credito
+          </label>
+          
+          
+          <label for="pix">
+            <input class="radio" type="radio" name="pagamentos" id="pix" value="Pix"> Pix
+          </label>
           
         </fieldset>
         <fieldset class="formasPagar">
           <legend class="pagamentos">Como deseja pagar</legend>
-          <select name="" id="">
+          <select class="opcoes" name="select" id="select">
             <option value="">A vista</option>
             <option value="">5x sem juro</option>
             <option value="" selected>10x com juros</option>

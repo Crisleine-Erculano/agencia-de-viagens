@@ -49,6 +49,10 @@ body{
     text-decoration: none;
     list-style: none;
 }
+.item-link:hover{
+    font-size: 1.2em;
+    background-color: #FA9007;
+}
 .conteiner{
     width: 100%;
     margin: 0 auto;

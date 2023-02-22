@@ -4,5 +4,29 @@
       padding: 1rem;
       text-align: center;
    }
-   
+   .titulo-logo{
+      color: #0f3c76;
+      font-size: 1.2em;
+   }
+   .titulo{
+      font-size: .8em;
+      padding: 1rem 0;
+   }
+   .figure{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+   }
+   .imagens{
+      margin-bottom: 1rem;
+      padding: 1.2rem;
+   }
+   .menu{
+      justify-content: center;
+   }
+   .item-link{
+      color: #0f3c76;
+
+   }
 }

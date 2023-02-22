@@ -14,7 +14,6 @@ body{
 .cabecalho{
     display: flex;
     justify-content: space-around;
-    width: 100%;
     padding: 25px 0px;
     margin: 0 auto;
     background-color: #FF6105;
@@ -73,8 +72,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px ;
-    background-color: #FA9007;
+    
 
+}
+.imagens{
+    background-color: #FA9007;
 }
 figcaption{
     padding: 10px;
@@ -86,7 +88,6 @@ figcaption{
 .submit{
     padding: 15px;
     width: 100%;
-    border-radius: 7px;
     border: none;
     background-color: #1E7EFF;
     color: #ccc;
@@ -95,9 +96,8 @@ figcaption{
     cursor: pointer;
 }
 .submit:hover{
-    padding: 18px;
-    font-size: 1.5em;
-    background-color: #1E7EFF;
+
+    background-color: #0f3c76;
 }
 .table{
     margin: 20px 0;

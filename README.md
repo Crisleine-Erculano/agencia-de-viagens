@@ -10,9 +10,9 @@ Esse projeto foi feito com base em um projeto de um curso da Plataforma Descompl
 
 ## Onde ver o Projeto
 
-[GitPages](https://crisleine-erculano.github.io/agencia-de-viagens/)
+- [GitPages](https://crisleine-erculano.github.io/agencia-de-viagens/)
 
-#Linguagens Utilizadas
+## Linguagens Utilizadas
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -20,5 +20,5 @@ Esse projeto foi feito com base em um projeto de um curso da Plataforma Descompl
 
 ## Contatos
 
-[Linkedin](https://www.linkedin.com/in/crisleine-erculano)
+- [Linkedin](https://www.linkedin.com/in/crisleine-erculano)
 
